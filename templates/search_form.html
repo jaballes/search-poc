@@ -1,0 +1,11 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block content %}
+  <form method="post">
+    <div class="form-group">
+      <label for="query">Search:</label>
+      <input type="text" class="form-control" id="query" name="query" placeholder="Enter search query">
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+{% endblock %}
